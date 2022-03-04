@@ -37,6 +37,24 @@ p {font-family: 'PT Sans', sans-serif;
     color: #fa8072;
 }
 
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #fa998e;
+}
+img.active {
+    border: 2px solid #fa998e;
+}
+
+thead {
+    background-color: #fa8072;
+    color: white;
+    border: none;
+    font-family: 'Rajdhani', sans-serif;
+    line-height: 70%;
+}
+tr:nth-child(even) {
+    background: #ffccc6}
 
 /* make an active-link for a colored border around active image? */
 

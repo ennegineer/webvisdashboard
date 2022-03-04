@@ -7,16 +7,10 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
       <!-- Bootstrap CSS -->
-      <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
-      <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
-
-
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
 
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-      <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
       <link href="style.css" rel="stylesheet" >
 
       <!-- fonts -->
@@ -35,7 +29,7 @@
 <!-- navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 0px">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#" style="color:white">Weather Analysis</a>
+    <a class="navbar-brand" href="index.html" style="color:white">Weather Analysis</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -50,7 +44,7 @@
             <li><a class="dropdown-item" href="temp.html">Max Temperature</a></li>
             <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
             <li><a class="dropdown-item" href="clouds.html">Cloudiness</a></li>
-            <li><a class="dropdown-item" href="winds.html">Wind Speed</a></li>
+            <li><a class="dropdown-item active" aria-current="page" href="#">Wind Speed</a></li>
           </ul>
         </li>
         <li class="nav-item">
@@ -74,10 +68,10 @@
 <div class="container" style="margin: 0px; justify-content: center;">
   <div class="row" style="margin-top: 30px; margin-bottom: 30px;">
     <div class="col-md-6" style="background-color: white; padding: 10px; margin: 15px">
-      <h2>Weather Analysis</h2>
-      <h5>Project Summary</h5>
+      <h2>Wind Speeds</h2>
+      <h5>vs. City Latitude</h5>
       <br>
-      <p>The objective of the weather analysis project was to visualize specific aspects of the weather in over 500 random cities at varying latitudes to look for trends. <img src="/visualizations/code2.JPG" width="60%" align="left" style="margin:3px"> To accomplish this, we used the Pandas and Matplotlib libraries in Python, as well as CitiPy and the OpenWeatherMap API to grab data on our randomized list of cities.<br><br> The list of random cities was created by using NumPy to generate random numbers for the latitude and longitude, and then CitiPy was used to find a city name for the latitude and longitude combinations we generated. These city names were appended to an empty list, and that list was used in our API call to gather weather information on the cities.<br><br>Click on the visualization images to the right, or the links at the top of the page to read more about the analysis.</p>
+      <p>The objective of the weather analysis project was to visualize specific aspects of the weather in over 500 random cities at varying latitudes to look for trends. <img src="/visualizations/plot4.png" width="60%" align="left" style="margin:3px"> This plot shows the percentage of cloudiness in cities across varied latitudes. There appears to be no correlation here.<br><br>Click on the visualization images to the right, or the links at the top of the page to read more about the analysis.</p>
     </div>
     <div class="col-md-5" style="background-color: white; padding: 10px; margin: 15px">
       <h3>Visualizations</h3>
@@ -94,16 +88,11 @@
             <a href="clouds.html"><img src="/visualizations/plot3.png" width="100%"></a>
         </div>
         <div class="col-md-6">
-            <a href="winds.html"><img src="/visualizations/plot4.png" width="100%"></a>
+            <a href="#"><img src="/visualizations/plot4.png" width="100%" class="active"></a>
         </div>
       </div>
     </div>
   </div>
 </div>
-
-
-
-
-
     </body>
 </html>
