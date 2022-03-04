@@ -1,0 +1,47 @@
+body {margin: 0px;
+    padding: 0px;}
+
+.navbar-brand {
+    background-color: #fa8072;
+    color:white;
+    padding: 10px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+}
+
+h2 {color: #fa8072;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;}
+
+h3 {color: #fa8072;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;}
+h5 {color: #fa998e;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+    line-height: 30%;}
+
+p {font-family: 'PT Sans', sans-serif;
+    color:rgb(63, 63, 63);
+}
+
+.enne {
+    margin-bottom: 0px;
+}
+
+.enne a {
+    text-decoration: none;
+    color: rgba(0,0,0,.55);
+}
+.enne a:hover {
+    color: #fa8072;
+}
+
+
+/* make an active-link for a colored border around active image? */
+
+/* Outrageous Orange: F8734F
+Black Chocolate:   1A1C0D
+Cyan Process:	   09BAEB
+Chartreuse Tradnl: E7FF47
+Bitter Lemon:	   B9D40C */
